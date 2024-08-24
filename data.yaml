@@ -1,0 +1,13 @@
+train: C:/Users/Dell/OneDrive/Desktop/Projects/model/Apple Detection.v2i.yolov8/train
+val: C:/Users/Dell/OneDrive/Desktop/Projects/model/Apple Detection.v2i.yolov8/valid
+test: C:/Users/Dell/OneDrive/Desktop/Projects/model/Apple Detection.v2i.yolov8/test
+
+nc: 1
+names: ['apple']
+
+roboflow:
+  workspace: ai-dev-soadp
+  project: apple-detection-x0qo0
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-dev-soadp/apple-detection-x0qo0/dataset/2

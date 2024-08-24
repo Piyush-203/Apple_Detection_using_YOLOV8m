@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['apple']
+
+roboflow:
+  workspace: ai-dev-soadp
+  project: apple-detection-x0qo0
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-dev-soadp/apple-detection-x0qo0/dataset/2
